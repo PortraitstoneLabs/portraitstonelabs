@@ -306,9 +306,8 @@ export const socialLinks = [
     {
         name: 'LinkedIn',
         iconUrl: linkedin,
-        link: 'https://www.linkedin.com/in/khristophe-keen-46270394/',
+        link: 'https://www.linkedin.com/company/portraitstonelabs/',
     },
-
 ];
 
 export const projects = [

@@ -88,14 +88,14 @@ const Projects = () => {
         ))}
       </div>
 
-      <Unity
+      {/* <Unity
         style={{
           width: "100%",
           justifySelf: "center",
           alignSelf: "center",
         }}
         unityProvider={unityProvider}
-      />
+      /> */}
 
       <hr className='border-slate-200' />
 

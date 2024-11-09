@@ -15,26 +15,26 @@ const Projects = () => {
 
   const projectsRef = useRef(null);
 
-  useEffect(() => {
-    const checkElement = () => {
-      const element = projectsRef.current;
-      if (element) {
-        const rect = element.getBoundingClientRect();
-        console.log(rect);
-      } else {
-        console.error('Element not found');
-      }
-    };
+  // useEffect(() => {
+  //   const checkElement = () => {
+  //     const element = projectsRef.current;
+  //     if (element) {
+  //       const rect = element.getBoundingClientRect();
+  //       console.log(rect);
+  //     } else {
+  //       console.error('Element not found');
+  //     }
+  //   };
 
-    // Using requestAnimationFrame
-    requestAnimationFrame(checkElement);
+  //   // Using requestAnimationFrame
+  //   requestAnimationFrame(checkElement);
 
-    // Optional: Add a resize event listener
-    window.addEventListener('resize', checkElement);
-    return () => {
-      window.removeEventListener('resize', checkElement);
-    };
-  }, []);
+  //   // Optional: Add a resize event listener
+  //   window.addEventListener('resize', checkElement);
+  //   return () => {
+  //     window.removeEventListener('resize', checkElement);
+  //   };
+  // }, []);
 
   return (
     <section className='max-container'>

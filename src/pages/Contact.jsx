@@ -7,14 +7,14 @@ import useAlert from "../hooks/useAlert";
 import { Alert, Loader } from "../components";
 
 
-const element = document.getElementById('contact');
-if (element) {
-  // Ensure element is not null before calling getBoundingClientRect
-  const rect = element.getBoundingClientRect();
-  // Continue with your code using rect
-} else {
-  console.error('Element not found');
-}
+// const element = document.getElementById('contact');
+// if (element) {
+//   // Ensure element is not null before calling getBoundingClientRect
+//   const rect = element.getBoundingClientRect();
+//   // Continue with your code using rect
+// } else {
+//   console.error('Element not found');
+// }
 
 const Contact = () => {
   const formRef = useRef();

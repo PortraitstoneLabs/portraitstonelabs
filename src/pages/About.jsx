@@ -28,12 +28,12 @@ const About = () => {
           {" "}
           Labs
         </span>{" "}
-        👋
+        𓂀
       </h1>
 
       <div className='mt-5 flex flex-col gap-3 text-slate-500'>
         <p>
-          Your Web3.0, 3D printing, and game development site
+        A first principle of PortraitstoneLabs is to mix the pure value of 3D printing, video gaming, and NFTs (Non-Fungible Tokens) for individuals and companies to pivot toward decentralization through the manifestation of light so technologies can bring new dimensions of transparency, creativity, and value to businesses and communities.
         </p>
       </div>
 

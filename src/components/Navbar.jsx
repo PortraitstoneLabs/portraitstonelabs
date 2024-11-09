@@ -12,7 +12,7 @@ const Navbar = () => {
           MBTI
         </NavLink>
         <NavLink to='/projects' className={({ isActive }) => isActive ? "text-blue-600" : "text-black"}>
-          News FAQs & Gaming
+        Projects Network
         </NavLink>
       </nav>
     </header>
